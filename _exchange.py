@@ -46,9 +46,9 @@ def get_datas_from_user():
     return exchanged, received, quantity
 
 def main():
-    print('Döviz Uygulamasına Hoş Geldiniz'.center(70, '*'))
+    print('Welcomme to the Currency Converter App'.center(70, '*'))
     while True:
-        welcomme = input('\nçıkmak için (q), devam etmek için herhangi bir tuşa basın:  ')
+        welcomme = input('\nTo quit (q), To keep press any key:  ')
         if welcomme == 'q' or welcomme == 'Q':
             print('Thank you for choosing us :) by by!')
             break
