@@ -42,8 +42,9 @@ def get_datas_from_user():
     return bozulan, alınan, miktar
 
 def main():
+    print('Döviz Uygulamasına Hoş Geldiniz'.center(70, '*'))
     while True:
-        welcomme = input('Döviz Uygulamasına Hoş Geldiniz'.center(70, '*'))
+        welcomme = input('\nçıkmak için (q), devam etmek için herhangi bir tuşa basın:  ')
         if welcomme == 'q' or welcomme == 'Q':
             break
         else:
