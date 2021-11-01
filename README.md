@@ -1,2 +1,3 @@
-# currency-converter-app
-a currency conventer app
+## Currency Converter
+A currency conventer app
+
